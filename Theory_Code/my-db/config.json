@@ -1,0 +1,1 @@
+{"autocommit": false, "serializer_class": "json", "store_class": "transactional", "index_class": "transactional", "indexes": {"material": {"pk": {"id": "e9324909936041228bd1f4978ff67d16", "key": "pk"}}}, "index_store_class": "basic", "version": "0.2.12"}

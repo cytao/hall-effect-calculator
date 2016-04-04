@@ -1,0 +1,14 @@
+Name: Cu 
+Conductivity: metal #metal/semiconductor
+Carrier_Density: 1.2e+29  #in m^-3
+Superconductivity:
+   Superconducting: False
+   Type:  #1 or 2
+   Critical_Temperature:  #in K
+   Critical_Current_Density:  #in A/m^2
+   Critical_Fields:  #in T, could be more than one
+   Penetration_Depth:  #in m
+Resistance:
+   Ref_Temperature: 293.
+   Resistivity: 1.6730e-8 #in ohm-m
+   Temperature_Coefficient: 0.0068 #in 1/K

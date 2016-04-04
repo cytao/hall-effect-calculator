@@ -1,0 +1,16 @@
+Material: Cu #The material name in the database
+Circuit_Design:
+   Width: 0.0005 #Trace width in m
+   Radius: 0.001 #Semicircle outer radius in m
+   Thickness: 3.5e-5 #Trace thickness in m
+   Width_Else: 0.001 #The width of the trace for the rest of the circuit
+   Length_Else: 0.05 #The length of the trace for the rest of the circuit
+   
+Experimental_Setup:
+   Current_Limit: 20. #in A
+   Voltage_Limit: 20. #in V
+   B_Field: #This is for the calculation of magnetic Hall effect, which will not appear for superconducting case.
+      External: #Set up the external field on the circuit by yourself. If this number is nonzero, then the self-generated field will be turned off. Default = 0
+      Self_Generated_Coeff: #The coefficient in front of mu_0*I/(2\pi R). Default = 1. For two-layer design, set both to zero.
+Output:
+   Current_Sweep_Step: 0.5 #in A

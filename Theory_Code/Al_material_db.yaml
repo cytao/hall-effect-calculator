@@ -1,0 +1,14 @@
+Name: Al
+Conductivity: metal #metal/semiconductor
+Carrier_Density: 1.806e+29 #in m^-3
+Superconductivity:
+   Superconducting: True
+   Type: 1 #1 or 2
+   Critical_Temperature: 1.75 #in K
+   Critical_Current_Density: 1.e+12 #in A/m^2
+   Critical_Fields: [0.0105] #in T, could be more than one
+   Penetration_Depth: 1.6e-8 #in m
+Resistance:
+   Ref_Temperature: 293.
+   Resistivity: 2.65e-8 #in ohm-m
+   Temperature_Coefficient: 0.00429 #in 1/K
