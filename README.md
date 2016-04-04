@@ -1,1 +1,0 @@
-# hall-effect-calculator
