@@ -7,7 +7,7 @@ The calculator mainly contains two programs: `material_db_input.py` and `main_ca
 
 1. To clone the code, first install GitHub and then go to your working dirctory.
 2. Type `git clone https://github.com/cytao/hall-effect-calculator`.
-3. Press _Enter and then a local copy will be created.
+3. Press _Enter_ and then a local copy will be created.
 
 ## Prerequisities
 
